@@ -10,7 +10,7 @@ public class FacebookTest {
 	WebDriver driver;
 		@Test
 		public void m1Test() {
-			System.out.println("hello selenium tester ");
+			System.out.println("hello razu miah selenium tester ");
 			//
 			WebDriverManager.chromedriver().setup();
 			driver= new ChromeDriver();
