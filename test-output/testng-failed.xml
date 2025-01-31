@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.halatala.HalaTala">
+      <class name="com.facebook_locators.DirectLocators">
         <methods>
-          <include name="myFirstTest"/>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
+          <include name="idLocator"/>
         </methods>
-      </class> <!-- com.halatala.HalaTala -->
+      </class> <!-- com.facebook_locators.DirectLocators -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
